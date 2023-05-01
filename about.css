@@ -13,9 +13,43 @@ body{
 .wrapper{
     width: 100%;
 }
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #00961be2;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
 .title h1{
     color: aliceblue;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     text-transform: uppercase;
     text-align: center;
@@ -35,8 +69,8 @@ body{
     margin: auto;
 }
 .image-section img{
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     display: block;
     margin: auto;
@@ -45,12 +79,12 @@ article{
     width: 90%;
 }
 article h3{
-    font-size: 25px;
+    font-size: 20px;
     color: cornsilk;
     font-weight: 500;
 }
 article p{
-    font-size: 20px;
+    font-size: 18px;
     color: aliceblue;
     margin-top: 30px;
 }
