@@ -8,18 +8,26 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: black;
+    
 }
+
 .wrapper{
     width: 100%;
+    
 }
 .navbar{
     width: 100%;
     margin: auto;
-    padding: 30px;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
+}
+
+.logo{
+    width: 300px;
+    cursor: pointer;
 }
 
 .navbar ul li{
@@ -48,12 +56,12 @@ body{
     width: 100%;
 }
 .title h1{
-    color: aliceblue;
+    color: black;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 .about{
     width: 100%;
@@ -80,12 +88,12 @@ article{
 }
 article h3{
     font-size: 20px;
-    color: cornsilk;
+    color: darkred;
     font-weight: 500;
 }
 article p{
-    font-size: 18px;
-    color: aliceblue;
+    font-size: 17px;
+    color:darkgray;
     margin-top: 30px;
 }
 @media screen and (max-width:768px) {
