@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    animation: none;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #00961be2;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.featured{
+    padding: 50px 50px;
+}
+
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.tours{
+    padding: 50px 50px;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3rem;
+    display: grid;
+}
+
+.place img{
+    width: 90%;
+    height: 50%;
+    display: block;
+    padding-top: 0px;
+    
+}
+
+.item-content{
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    padding: 20px 10px;
+    background-color: grey;
+    width: 90%;
+    
+}
+
+.item-content span{
+    color: white;
+}
+.text p{
+    padding-top: 10px;
+    letter-spacing: 0;
+    font-size: 15px;
+    font-weight: 200;
+    color:aqua;
+}
