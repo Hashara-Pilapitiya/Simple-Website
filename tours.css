@@ -79,7 +79,7 @@
     width: 90%;
     height: 50%;
     display: block;
-    padding-top: 0px;
+    margin-top: 70px;
     
 }
 
@@ -91,12 +91,12 @@
     padding: 20px 10px;
     background-color: grey;
     width: 90%;
-    
 }
 
 .item-content span{
     color: white;
 }
+
 .text p{
     padding-top: 10px;
     letter-spacing: 0;
@@ -104,3 +104,4 @@
     font-weight: 200;
     color:aqua;
 }
+
